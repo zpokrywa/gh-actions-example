@@ -1,4 +1,4 @@
-name: Python package
+name: Python script testing
 
 on: [push]
 
@@ -29,7 +29,3 @@ jobs:
           flake8 .
       - name: Run hello.py
         run: python hello.py
-      - name: Add some silliness for giggles
-        uses: tiena2cva/action-emoji@v1
-        with:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
