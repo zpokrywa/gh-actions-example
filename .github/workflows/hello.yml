@@ -17,3 +17,6 @@ jobs:
           python-version: ${{ matrix.python-version }}
           architecture: x64
       - run: python hello.py
+      - name: Test with pytest
+        run: |
+          pytest
