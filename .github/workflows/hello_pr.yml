@@ -1,14 +1,14 @@
-name: Add fun
+# name: Add fun
 
-on: [pull_request]
+# on: [pull_request]
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: Example on how to run on PR
-    steps:
-      - uses: actions/checkout@v2
-      - name: Add some silliness for giggles
-        uses: tiena2cva/action-emoji@v1
-        with:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     name: Example on how to run on PR
+#     steps:
+#       - uses: actions/checkout@v2
+#       - name: Add some silliness for giggles
+#         uses: tiena2cva/action-emoji@v1
+#         with:
+#           GITHUB_TOKEN: ${{ secrets.TOKEN }}
